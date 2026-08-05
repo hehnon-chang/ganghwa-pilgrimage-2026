@@ -103,9 +103,10 @@
   }
   .hero h1{
     font-family:var(--serif);font-weight:900;
-    font-size:clamp(38px,7vw,72px);
+    font-size:clamp(26px,10.5vw,72px);
     line-height:1.18;
     letter-spacing:-0.01em;
+    white-space:nowrap;
     position:relative;z-index:2;
   }
   .hero h1 span{display:block;color:var(--brass-light);font-size:0.42em;font-weight:600;margin-top:18px;letter-spacing:0.02em;}
@@ -320,7 +321,7 @@
   }
   .section--closing .kicker{color:var(--brass-light);justify-content:center;}
   .section--closing .kicker::before{background:var(--brass-light);}
-  .section--closing h2.title{color:var(--moon);}
+  .section--closing h2.title{color:var(--moon);font-size:clamp(20px,7.5vw,36px);white-space:nowrap;}
   .section--closing .lede{margin:0 auto 46px;color:rgba(244,239,221,0.8);}
   .qr-block{
     display:inline-flex;flex-direction:column;align-items:center;gap:14px;
@@ -636,7 +637,6 @@
       </div>
 
       <div class="footer-credit">2026 임직자 강화도 신앙 유적지 순례 소책자</div>
-      <div class="footer-credit" style="margin-top:8px;opacity:0.7;">build: v7-simple-table-link-0805</div>
     </div>
   </section>
 
